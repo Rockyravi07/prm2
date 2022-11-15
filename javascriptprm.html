@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      
+let nocls=250
+let noclsatt=prompt("enter the No.of classes Attendent : ")
+let student=(nocls/100)
+let percent=(noclsatt/student)
+console.log("percentage is : ",percent)
+
+let medic=prompt("is there medical cause for your percentage you takken 'y' or 'n' ")
+if(medic=='y'){
+    console.log("you are allowed")
+}else if(percent>=75){
+    console.log("you are allowed")
+}else{
+    console.log("you are not allowed")
+}
+    </script>
+</body>
+</html>
